@@ -1,12 +1,17 @@
 import React from 'react';
 
+// ---------- COMPONENTS -----------//
+import FeaturedInfo from '../../components/featuredInfo/FeaturedInfo';
+
 
 // ---------- STYLE -----------//
-import "./home.scss"
+import "./home.scss";
 
 const Home = () => {
   return (
-    <div className='home'>Home</div>
+    <div className='home'>
+      <FeaturedInfo/>
+    </div>
   )
 }
 
