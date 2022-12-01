@@ -1,10 +1,9 @@
 .sidebar {
   flex: 1;
-  height: calc(100vh);
+  // height: calc(100vh);
   // height: 100%;
   background-color: rgb(34, 32, 44);
   position: sticky;
-  top: 50px ;
   
   .sidebarWrapper {
     padding: 1px 12px;
