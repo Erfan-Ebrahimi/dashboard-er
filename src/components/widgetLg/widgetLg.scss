@@ -3,7 +3,71 @@
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     background: rgba(48, 50, 78, 0.863);
-    padding: 20px;
     border-radius: 10px;
+    padding: 1px 20px;
+    .wlTable{
+        width: 100%;
+        border-spacing: 15px;
+    
+    }
+    .wlTr{
+        color: skyblue;
+    }
+    .wlTh{
+        text-align: left;
+    }
+    .wlTitle{
+        font-size: 20px;
+        font-weight: 600;
+        color: skyblue;
+    }
+    .wlUser{
+        display: flex;
+        align-items: center;
+    }
+    .wlUsername{
+        margin-left: 10px;
+        font-weight: 500;
+        color: rgb(174, 232, 255);
+    }
+    .wlUserImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }  
+
+}
+
+.wlButton{
+    background: rgb(161, 138, 138);
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(31, 48, 48);
+
+    &.Approved{
+        background-color: rgb(124, 228, 124);
+        &:hover{
+            background-color: rgb(61, 214, 61);
+            
+        }
+    }
+    &.Declined{
+        background-color: rgb(250, 146, 146);
+        &:hover{
+            background-color: rgb(255, 15, 15);
+            
+        }
+    }
+    &.Pending{
+        background-color: rgb(130, 141, 235);
+        &:hover{
+            background-color: rgb(63, 84, 202);
+            
+        }
+    }
 
 }
