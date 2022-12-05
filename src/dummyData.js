@@ -1,3 +1,9 @@
+import p1 from "./asset/p2.jpg"
+import p2 from "./asset/p2.jpg";
+import p3 from "./asset/p3.jpg";
+import p4 from "./asset/p4.jpg";
+
+
 export const userData = [
     {
       name: "Jan",
@@ -46,98 +52,17 @@ export const userData = [
     },
   ];
 
+
   export const userRows = [
-    {
-      id: 1,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 2,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 3,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 4,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 5,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 6,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 7,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 8,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 9,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-    {
-      id: 10,
-      username: "Jon Snow",
-      avatar:
-        "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      email: "jon@gmail.com",
-      status: "active",
-      transaction: "$120.00",
-    },
-  ];
+    { id: 1, username: 'Erfan Ebi', avatar:`${p1}`, email: "ebrahimi.erfan89@gmail.com" , status: "active" , transaction: "$125,500" },
+    { id: 2, username: 'Romina Pegahi',avatar:`${p2}`, email: "rominagold@gmail.com" , status: "deactive" , transaction: "$10,500" },
+    { id: 3, username: 'Mina Rose',avatar:`${p3}`, email: "minarose@gmail.com" , status: "deactive" , transaction: "$45,800" },
+    { id: 4, username: 'Ali Razavi',avatar:`${p4}`, email: "ali.redd@gmail.com" , status: "active" , transaction: "$95,200" },
+    { id: 5, username: 'Erfan Ebi',avatar:`${p1}`, email: "ebrahimi.erfan89@gmail.com" , status: "active" , transaction: "$125,500" },
+    { id: 6, username: 'Romina Pegahi',avatar:`${p2}`, email: "rominagold@gmail.com" , status: "active" , transaction: "$10,500" },
+    { id: 7, username: 'Mina Rose',avatar:`${p3}`, email: "minarose@gmail.com" , status: "active" , transaction: "$45,800" },
+    { id: 8, username: 'Ali Razavi',avatar:`${p4}`, email: "ali.redd@gmail.com" , status: "deactive" , transaction: "$95,200" },
+ ]
 
   export const productRows = [
     {
