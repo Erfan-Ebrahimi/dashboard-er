@@ -1,0 +1,165 @@
+.user{
+    flex: 4;
+    padding: 20px;
+
+    .uHeader{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .uAddButton{
+        width: 80px;
+        border: 1px solid red;
+        padding: 5px;
+        background: rgb(53, 22, 22);
+        border-radius: 7px;
+        color: antiquewhite;
+        cursor: pointer;
+        font-size: 16px;
+        &:hover{
+            background:antiquewhite ;
+            color: rgb(53, 22, 22);
+        }
+    }
+
+    .uContainer{
+        display: flex;
+        margin-top: 20px;
+    }
+    .uShowImg{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .uShowTop{
+        display: flex;
+        align-items: center;
+    }
+    .uShow{
+        background: rgba(177, 168, 168, 0.753);
+        flex: 1;
+        border-radius: 7px;
+        padding: 20px;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    }
+    .uUpdate{
+        background: rgb(187, 243, 240);
+        flex: 2;
+        border-radius: 7px;
+        padding: 20px;
+        -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    }
+    .uTopTitle{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+    .uShowUsername{
+        font-weight: 600;
+    }
+    .uShowUserJob{
+        font-weight: 300;
+    }
+    .uShowBottom{
+        margin-top: 20px;
+    }
+    .userShowTitle{
+        font-size: 15px;
+        font-weight: 600;
+        color: rgb(87, 28, 28);
+        
+    }
+    .userShowInfo{
+        display: flex;
+        align-items: center;
+        margin: 20px 0px;
+        color: rgb(71, 34, 34);
+    }
+    .userShowIcon{
+        font-size: 19px !important;
+
+    }
+    .userShowInfoTitle{
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    .uuTitle{
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(61, 32, 32);
+    }
+    .uuForm{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+    .uuItem{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .uuItem>label{
+        color: rgb(70, 4, 4);
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .uuInput{
+        border: none;
+        border-bottom: 1px solid rgb(48, 7, 163);
+        width: 250px;
+        height: 22px;
+        padding: 3px;
+        border-radius: 4px;
+        background: rgb(173, 203, 248);
+        
+        &::placeholder{
+            color: rgb(95, 87, 87);
+            font-size: 14px;
+        }
+
+        &:focus{
+            outline: 1px solid rgb(0, 102, 255);
+            background: rgb(140, 223, 243);
+        }
+
+    }
+    .uuRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .uuUpload{
+        display: flex;
+        align-items: center;
+    }
+    .uuImg{
+        width: 100px;
+        height: 100px;
+        border-radius: 9px;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    .uuIcon{
+        cursor: pointer;
+    }
+    .uuButton{
+        border-radius: 5px;
+        cursor: pointer;
+        padding: 5px;
+        border: none;
+        background: rgb(52, 1, 145);
+        color: beige;
+
+        &:hover{
+            color: rgb(52, 1, 145);
+            background:beige ;
+            border: 1px solid rgb(7, 91, 114);
+        }
+    }
+
+}
