@@ -17,6 +17,7 @@ const WidgetLg = () => {
     <div className='widgetLg'>
       <h3 className="wlTitle">Lates transactions</h3>
       <table className='wlTable'>
+        <tbody>
         <tr className='wlTr'>
           <th className='wlTh'>Customer</th>
           <th className='wlTh'>Date</th>
@@ -59,6 +60,8 @@ const WidgetLg = () => {
           <td className='wlAmount'>$122.8</td>
           <td className='wlStatus'><Button type="Approved"/></td>
         </tr>
+        </tbody>
+        
       </table>
     </div>
   )

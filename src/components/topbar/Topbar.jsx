@@ -3,6 +3,7 @@ import "./topbar.scss";
 import SettingsIcon from '@mui/icons-material/Settings';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import LanguageIcon from '@mui/icons-material/Language';
+import p1 from "../../asset/p1.jpg"
 const Topbar = () => {
   return (
     <div className="topbar">
@@ -22,7 +23,7 @@ const Topbar = () => {
           <div className="topbarIconContainer">
             <SettingsIcon />
           </div>
-          <img src="https://images.pexels.com/photos/1526814/pexels-photo-1526814.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="" className="topAvatar" />
+          <img src={p1} alt="" className="topAvatar" />
         </div>
       </div>
   </div>

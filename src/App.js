@@ -8,6 +8,7 @@ import Sidebar from './components/sidebar/Sidebar';
 import Home from './pages/home/Home';
 import UserList from './pages/userList/UserList';
 import User from './pages/user/User';
+import NewUser from './pages/newUser/NewUser';
 //------- STYLE  ---------//
 import "./App.css";
 
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path='/userList' element={<UserList/>}/>
           <Route path='/user/:userId' element={<User/>}/>
+          <Route path='/newUser' element={<NewUser/>}/>
         </Routes>
       </div>
     </div>
