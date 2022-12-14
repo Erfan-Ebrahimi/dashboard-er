@@ -47,12 +47,12 @@ export default function Sidebar() {
                 Users
               </li>
             </Link>
-            <a  className="link">
+            <Link to="/productList"  className="link">
               <li className="sidebarListItem">
                 <StorefrontIcon className="sidebarIcon" />
                 Products
               </li>
-            </a>
+            </Link>
             <li className="sidebarListItem">
               <AttachMoneyIcon className="sidebarIcon" />
               Transactions

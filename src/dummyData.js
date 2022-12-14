@@ -2,6 +2,9 @@ import p1 from "./asset/p2.jpg"
 import p2 from "./asset/p2.jpg";
 import p3 from "./asset/p3.jpg";
 import p4 from "./asset/p4.jpg";
+import q1 from "./asset/q1.jpg";
+import q2 from "./asset/q2.jpg";
+import q3 from "./asset/q3.jpg";
 
 
 export const userData = [
@@ -40,18 +43,32 @@ export const userData = [
   export const productData = [
     {
       name: "Jan",
-      "Sales": 4000,
+      "Sales": 1500,
     },
     {
       name: "Feb",
-      "Sales": 3000,
+      "Sales": 2000,
     },
     {
       name: "Mar",
-      "Sales": 5000,
+      "Sales": 4200,
+    },
+    {
+      name: "Apr",
+      "Sales": 1700,
+      
+    },
+    {
+      name: "May",
+      "Sales": 3200,
+      
+    },
+    {
+      name: "Jun",
+      "Sales": 6000,
+      
     },
   ];
-
 
   export const userRows = [
     { id: 1, username: 'Erfan Ebi', avatar:`${p1}`, email: "ebrahimi.erfan89@gmail.com" , status: "active" , transaction: "$125,500" },
@@ -67,90 +84,64 @@ export const userData = [
   export const productRows = [
     {
       id: 1,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Casio",
+      img:`${q1}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 2,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Patek",
+      img:`${q2}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 3,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Omega",
+      img:`${q3}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 4,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Casio",
+      img:`${q1}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 5,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Patek",
+      img:`${q2}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 6,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Omega",
+      img:`${q3}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 7,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Casio",
+      img:`${q2}`,
       stock: 123,
       status: "active",
       price: "$120.00",
     },
     {
       id: 8,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
-      status: "active",
-      price: "$120.00",
-    },
-    {
-      id: 9,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
-      status: "active",
-      price: "$120.00",
-    },
-    {
-      id: 10,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      name: "Omega",
+      img:`${q1}`,
       stock: 123,
       status: "active",
       price: "$120.00",

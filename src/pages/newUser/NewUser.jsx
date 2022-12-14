@@ -26,15 +26,16 @@ const NewUser = () => {
   }
   
   const notifyE = () => {
-    toast.error(JSON.stringify(errors), {
-      position: "top-right",
+    toast.error(errorMes, {
+      position: "top-center",
       autoClose: 4000,
       hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
       progress: undefined,
-      theme: "dark",
+      theme: "light",
+      className: 'toast-message'
       }); 
   }
 
@@ -63,7 +64,10 @@ const NewUser = () => {
     onSubmit,
     validationSchema : basicSchema,
   })
-  console.log(Object.keys(errors).length)
+
+
+  const errorMes = JSON.stringify(errors);
+
   return (
     <div className='newUser'>
       <h1 className="nuTitle">New User</h1>
