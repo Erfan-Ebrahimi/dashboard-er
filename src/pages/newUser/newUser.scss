@@ -1,7 +1,8 @@
 .newUser{
     flex: 4;
-    background: rgb(14, 1, 1);
+    background: rgb(1, 46, 16);
     color: beige;
+    padding: 20px;
 
     .nuForm{
         display: flex;
@@ -10,7 +11,7 @@
 
     .nuTitle{
         margin-left: 10px;
-        color: rgb(103, 133, 214);
+        color: rgb(230, 255, 85);
     }
 
     .nuItem{
@@ -21,7 +22,7 @@
         margin-top: 20px;
 
         label{
-            color: rgb(176, 202, 241);
+            color: rgb(230, 255, 85);
             font-size: 18px;
             margin-bottom: 5px;
         }
@@ -102,8 +103,10 @@
         font-size: 18px;
         color: rgb(255, 212, 212);
         cursor: pointer;
+        border: none;
         border-bottom:2px solid blue ;
         border-radius: 5px;
+        outline: none;
         
         &:disabled{
             border: 3px solid rgb(112, 255, 60);

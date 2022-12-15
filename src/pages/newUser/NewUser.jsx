@@ -157,19 +157,6 @@ const NewUser = () => {
             {errors.phone && touched.phone && <span className='error'>{errors.phone}</span>}
 
           </div>
-          <div className="nuItem">
-            <label htmlFor="address">Address</label>
-            <input 
-            className={errors.address && touched.address ? "inputError" : ""}
-            type="text" 
-            id='address' 
-            value={values.address}
-            onChange={handleChange}
-            onBlur={handleBlur}
-            placeholder="Tehran"
-            />
-            {errors.address && touched.address && <span className='error'>{errors.address}</span>}
-          </div>
         </div>
 
         <div className="nuItem ggg">

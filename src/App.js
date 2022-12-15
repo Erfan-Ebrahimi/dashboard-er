@@ -17,20 +17,20 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div >
-      <Topbar/>
-      <div className='container'>
-        <Sidebar/>
-        <Routes>
-          <Route path='/' element={<Home/>}/>
-          <Route path='/userList' element={<UserList/>}/>
-          <Route path='/user/:userId' element={<User/>}/>
-          <Route path='/newUser' element={<NewUser/>}/>
-          <Route path='/productList' element={<ProductList/>}/>
-          <Route path='/product/:productId' element={<Product/>}/>
-          <Route path='/newProduct' element={<NewProduct/>}/>
-        </Routes>
-      </div>
+    <div className='app'>
+     <Topbar/>
+     <div className='container' >
+       <Sidebar/>
+       <Routes>
+         <Route path='/' element={<Home/>}/>
+         <Route path='/userList' element={<UserList/>}/>
+         <Route path='/user/:userId' element={<User/>}/>
+         <Route path='/newUser' element={<NewUser/>}/>
+         <Route path='/productList' element={<ProductList/>}/>
+         <Route path='/product/:productId' element={<Product/>}/>
+         <Route path='/newProduct' element={<NewProduct/>}/>
+       </Routes>
+     </div>
     </div>
   )
 }

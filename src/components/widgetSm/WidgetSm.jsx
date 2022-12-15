@@ -15,8 +15,8 @@ const WidgetSm = () => {
         <li className='wsListItem'>
           <img className='wsImg' src={p4} alt="imgUser" />
           <div className='wsUser'>
-            <span className='wsUserName'>Mina Dashti</span>
-            <span className='wsUserTitle'>Front-end Developer</span>
+            <span className='wsUserName'>Ali Farahani</span>
+            <span className='wsUserTitle'>Back-end Developer</span>
           </div>
           <button className='wsButton'>
             <VisibilityIcon/>
@@ -35,8 +35,8 @@ const WidgetSm = () => {
         <li className='wsListItem'>
           <img className='wsImg' src={p2} alt="imgUser" />
           <div className='wsUser'>
-            <span className='wsUserName'>Mina Dashti</span>
-            <span className='wsUserTitle'>Front-end Developer</span>
+            <span className='wsUserName'>Negin Koliary</span>
+            <span className='wsUserTitle'>UI-UX Designer</span>
           </div>
           <button className='wsButton'>
             <VisibilityIcon/>
@@ -45,7 +45,7 @@ const WidgetSm = () => {
         <li className='wsListItem'>
           <img className='wsImg' src={p1} alt="imgUser" />
           <div className='wsUser'>
-            <span className='wsUserName'>Mina Dashti</span>
+            <span className='wsUserName'>Hosein Sarvan</span>
             <span className='wsUserTitle'>Front-end Developer</span>
           </div>
           <button className='wsButton'>

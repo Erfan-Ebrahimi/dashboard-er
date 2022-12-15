@@ -1,14 +1,18 @@
 .chart{
-    background: #338d30;
     margin: 20px;
     padding: 20px;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    background: rgba(236, 208, 208, 0.678);
+    background: rgba(0, 0, 0, 0.932);
     border-radius: 8px;
     
     .chartTitle{
         margin-bottom: 20px;
+        color: #d6ee93;
+
+    }
+    .lk{
+        color: #31f700;
     }
 
 }

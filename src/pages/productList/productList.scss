@@ -1,6 +1,6 @@
 .productList{
     flex: 4;
-
+background: rgba(0, 0, 0, 0.918);
     .list{
         display: flex;
         align-items: center;
@@ -16,19 +16,21 @@
     }
     .fi{
         font-size: 18px; 
-        color: rgb(10, 107, 107);
+                color: #d7ff68;
+
     }
     .fe{
         font-size: 16px;
-        color: rgb(25, 65, 65);
-        border-left: 1px solid blue;
+                color: #d7ff68;
+
+        // border-left: 1px solid blue;
     }
     .actionList{
         display: flex;
         align-items: center;
     }
     .alButton{
-        background: rgb(210, 236, 117);
+        background: rgb(105, 255, 19);
         border: none;
         padding: 3px 14px;
         color: rgb(46, 9, 9);
@@ -44,10 +46,17 @@
         font-size: 23px !important;
         background: none;
         border: none;
-        color: rgb(206, 12, 12);
+        color: rgb(223, 137, 137);
         cursor: pointer;
         &:hover{
             color: rgb(236, 96, 96) !important;
         }
+    }
+    .MuiButtonBase-root{
+        color: rgb(221, 224, 20) !important;
+    }
+    .MuiDataGrid-columnHeaderTitleContainer{
+        color: rgb(228, 199, 199);
+
     }
 }

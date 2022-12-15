@@ -12,7 +12,7 @@
     cursor: pointer;
     -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
-    background: rgba(241, 193, 193, 0.678);
+    background: rgba(0, 0, 0, 0.904);
 
     }
 
@@ -25,7 +25,7 @@
         margin: 10px 0px;
         display: flex;
         align-items: center;
-        color: rgb(48, 48, 19);
+        color: #d7ff68;
     }
 
     .featuredMoney{
@@ -44,20 +44,21 @@
     }
 
     .featuredIcon{
-        font-size: 20px;
+        font-size: 25px;
         margin-left: 5px;
-        color: rgb(7, 177, 7);
+        color: rgb(18, 255, 18);
         border: 1px solid rgb(2, 235, 14);
         border-radius: 50%;
         &.negative{
-            color: red;
+            color: rgb(255, 0, 0);
             border: 1px solid red;
 
         }
     }
     .featuredSub{
         font-size: 15px;
-        color: rgb(85, 5, 5);
+        color: #658804;
+        
     }
 
 }
