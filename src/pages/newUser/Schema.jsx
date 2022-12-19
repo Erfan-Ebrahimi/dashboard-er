@@ -30,13 +30,7 @@ export const basicSchema = yup.object().shape({
     .required('Phone is required'),  
   address: yup
     .string()
-    .required('Address is required'),  
-  gender: yup
-    .string()
-    .required('Select your gender'),  
-  active: yup
-    .string()
-    .required('Select your activity'),  
+    .required('Address is required'),    
 });
 
 
