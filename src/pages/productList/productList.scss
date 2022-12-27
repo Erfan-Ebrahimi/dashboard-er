@@ -8,8 +8,9 @@ background: rgba(0, 0, 0, 0.918);
     .listImg{
         width: 40px;
         height: 40px;
-        object-fit: cover;
-        border-radius: 7px;
+        border-radius: 5px;
+        background-color: none;
+        border: 2px solid rgb(175, 255, 143);
     }
     .listTitle{
         margin-left: 10px;
@@ -23,7 +24,7 @@ background: rgba(0, 0, 0, 0.918);
         font-size: 16px;
                 color: #d7ff68;
 
-        // border-left: 1px solid blue;
+        
     }
     .actionList{
         display: flex;
@@ -58,5 +59,8 @@ background: rgba(0, 0, 0, 0.918);
     .MuiDataGrid-columnHeaderTitleContainer{
         color: rgb(228, 199, 199);
 
+    }
+    .MuiTablePagination-displayedRows{
+        color: #d7ff68;
     }
 }

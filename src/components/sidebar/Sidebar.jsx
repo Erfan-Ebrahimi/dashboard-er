@@ -26,12 +26,10 @@ export default function Sidebar() {
                 Home
               </li>
             </NavLink>
-            <NavLink className="link" to="/pros">
               <li className="sidebarListItem">
                 <WorkOutlineIcon className="sidebarIcon" />
                 Manage
               </li>
-            </NavLink>
             <li className="sidebarListItem">
               <TrendingUpIcon className="sidebarIcon" />
               Sales
