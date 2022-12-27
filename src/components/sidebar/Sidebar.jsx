@@ -26,10 +26,12 @@ export default function Sidebar() {
                 Home
               </li>
             </NavLink>
-            <li className="sidebarListItem">
-              <WorkOutlineIcon className="sidebarIcon" />
-              Manage
-            </li>
+            <NavLink className="link" to="/pros">
+              <li className="sidebarListItem">
+                <WorkOutlineIcon className="sidebarIcon" />
+                Manage
+              </li>
+            </NavLink>
             <li className="sidebarListItem">
               <TrendingUpIcon className="sidebarIcon" />
               Sales
@@ -72,10 +74,10 @@ export default function Sidebar() {
               <DynamicFeedIcon className="sidebarIcon" />
               Feedback
             </li>
-            <li className="sidebarListItem">
-              <ChatBubbleOutlineIcon className="sidebarIcon" />
-              Messages
-            </li>
+              <li className="sidebarListItem">
+                <ChatBubbleOutlineIcon className="sidebarIcon" />
+                Messages
+              </li>
           </ul>
         </div>
       </div>

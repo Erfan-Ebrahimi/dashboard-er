@@ -1,16 +1,18 @@
-.userList{
+.ali{
     flex: 4;
-    background: rgba(0, 0, 0, 0.918);
-
+    background: rgb(26, 21, 21);
     .list{
         display: flex;
         align-items: center;
+        flex-direction: row;
     }
     .listImg{
+        padding: 0;
+        margin: 0;
         width: 40px;
-        height: 40px;
-        object-fit: cover;
         border-radius: 50%;
+        background: black;
+        border: 1px solid rgb(255, 253, 123);
     }
     .listTitle{
         margin-left: 10px;
@@ -22,14 +24,13 @@
     .fe{
         font-size: 16px;
         color: #d7ff68;
-        // border: 1px solid rgb(0, 0, 0);
     }
     .actionList{
         display: flex;
         align-items: center;
     }
     .alButton{
-        background: rgb(105, 255, 19);
+        background: rgb(165, 247, 118);
         border: none;
         padding: 3px 14px;
         color: rgb(46, 9, 9);
@@ -54,8 +55,16 @@
 
     .MuiDataGrid-columnHeaderTitleContainer{
         color: rgb(228, 199, 199);
+        
     }
     .MuiButtonBase-root{
         color: rgb(221, 224, 20) !important;
+    }
+    .MuiDataGrid-columnHeaderTitleContainer{
+        text-align: left !important;
+        
+    }
+    .MuiTablePagination-displayedRows{
+        color: #d7ff68;
     }
 }

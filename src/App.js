@@ -3,7 +3,6 @@ import { Routes , Route } from 'react-router-dom';
 //---- COMPONENTS ----------//
 import Topbar from "./components/topbar/Topbar";
 import Sidebar from './components/sidebar/Sidebar';
-
 //------- PAGES  ---------//
 import Home from './pages/home/Home';
 import UserList from './pages/userList/UserList';
@@ -14,8 +13,8 @@ import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 //------- STYLE  ---------//
 import "./App.css";
-
 const App = () => {
+  
   return (
     <div className='app'>
      <Topbar/>
@@ -24,7 +23,7 @@ const App = () => {
        <Routes>
          <Route path='/' element={<Home/>}/>
          <Route path='/userList' element={<UserList/>}/>
-         <Route path='/user/:userId' element={<User/>}/>
+         <Route path='/user/:id' element={<User/>}/>
          <Route path='/newUser' element={<NewUser/>}/>
          <Route path='/productList' element={<ProductList/>}/>
          <Route path='/product/:productId' element={<Product/>}/>
